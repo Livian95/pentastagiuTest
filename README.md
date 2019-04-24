@@ -1,4 +1,5 @@
 # pentastagiu_modul1_test
+<<<<<<< HEAD
 ## Task:
 1. clone the repo on your local machine
 2. create a branch in which you will provide your solution

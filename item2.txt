@@ -1,0 +1,6 @@
+Error- is a mistake/missunderstanding on the part of the software dev usually, it can change the functionality of a program, for example, a bad loop, a bad declaration of a variable or a function, or a if statement coverage can lead to errors.
+Bug- result of a coding error, usually before the software release, and it make the application work bad, not as desired. The bug is usually related to the Tester.
+Fault- Incorect step/process wich makes the program work bad, it is usually the result of an error, and it is considered an anomlay that makes the software not work as desired, and unanticipated
+Failure- The incapability of a software to perform as desired, under strict circumstances and so on, it's functionality is not met, so the software behaves undesired, again, it is related to defect, but the diference is that we refer to defects in the testing phase, a failure is usually after the program has been release.
+
+The relationship between those above, is that, they are all faulty for SDLC, always present, because there is no soft that has no bugs, errors, etc.. All of them are unwanted, desirable prevented. For the most of them the testers take care, and it is a tester duty to handle. 

@@ -1,0 +1,2 @@
+Regresion testing is that the new code changes should not have any effects on existing functionalities, on the other hand, retesting means that the test has to confirm the test cases that failed in the final execution, now has passed, after the bug or problem has been fixed.
+On regresion testing, it is carried out so that the new code should not affect the existing functionalities, retesting is usually done after a defect is fixed.Re testing cannot be automated, regresion testing does

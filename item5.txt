@@ -1,0 +1,73 @@
+Test case 1
+Check log-in functionality
+Precondition-Valid credentials
+Test Steps-> Click on the name, enter a valid name, Click on the password, enter a valid password.
+Expected result -> Log in
+Actual result -> Log in.
+Functional
+Status-OK
+Test case 2
+Check log-in functionality
+Precondition-INValid credentials
+Test Steps-> Click on the name, enter a INvalid name, Click on the password, enter a INvalid password.
+Expected result -> nLogIN
+Actual result -> Log in
+Status-Nok
+Functional
+Test case 3
+Check log-in functionality
+Precondition-Valid credentials but upper cased(same for lower)
+Test Steps-> Click on the name, enter a valid name, Click on the password, enter a valid password.
+Expected result -> nLogIN
+Actual result -> Log in.
+Status-NOK
+Test case 4
+Check log-in functionality with facebook( same for google and linkedin)
+Precondition-Valid credentials
+Test Steps-> Click the facebook logo, and log in by facebook
+Expected result -> Loged IN
+Actual result -> Log in.
+Status-OK
+Test case 5
+Check how fast the application logs in
+Precondition- Valid credentials
+Test steps-> Enter username, enter password (both valid)
+Expected result -> LogedIN under x seconds
+Actual results-> Loged in under x seconds
+Status-OK
+Test case 6
+Flood test
+Check if the application supports multiple log in attempts with different users, valid or invalid, very fast.
+Precondition-> Script to enter valid credentials and unvald credentials
+Test steps->Enable the script to flood the application with 10k+, 20k+ 30k+ users to log in as fast as possible.
+Expected result-> Application crashes after the script tries to log in after 30k+ attempts.
+Actual results-> Aplication crashed on 10k peak.
+Status-> Nok
+Test case 7
+Check the maximul length of a username and a password can have
+Precondition-> None
+Test steps-> Create an account and a password with maximum allowed characters-> check if they can be much more then specified
+Expected->Under 32(for example) characters
+Actual results-> The application works with 100 characters
+Status nOK
+NotFunctional
+Test case 8
+Test the security of the request the application does to the server database when someone logs in.
+Precondition-> Implementation of a "middleman" between the server and the application.
+Test steps->Log in with valid credentials, see the middleman if it has your password and your username or if it is encrypted.
+Expected results-> Middleman doesn't see the cred.
+Actual-> middleman doesn't see the cred.
+Status ok.
+Not Functional
+
+Test ideas (out of time), accesibility tests, where you can talk to the app to log you in, or the app has an (tap) keyboard, if your screen is crashed and you urgent need another keyboard(Load test-> where you log in with lots and lots of users at the same time, stress test-> where you go above application peak users and maintain them(see for how long till the application crashed, and for how many users)(security-> test if the application signs out if you close the window, the application without signing out, check if the forgot password actually resets your password, and after that try to log in with the password you have changed, upper lower case, see for special characters support, like u with umplaut or e with accent, see if e with accent behaves the same like e without accent, ex if you want to log in with an username that has e with accent, try to log in with the same username that e's has no accent.
+(BLACK BOX TESTS)
+
+Test case 1
+Check the slide feature of the app for log in or for sign up
+Precondition->Java Script
+Test steps-> watch the java function that does the slide, modify the paramaters to see if it is still working
+Expected-> the slide changes color and stops working
+Actual-> the slide moves faster.
+(out of time) (branch coverege, to see what happens if i log in with facebook, google, linkedin, where the data is stored, check if the buttons appeare on the screen, they have the correct font, color, etc.)(check if the buttons get you to the right path, if not check the error message)
+(White box testing)
