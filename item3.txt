@@ -1,0 +1,14 @@
+V-Model
+A SDLC where the developing takes place in a "V" where testing techniques with the design are reflected as descending, and are for verification, and are connected with requierements or specifications parts, wich are ascending, testing and developing documentations are done in the same time. Bottom-> codding phase, and left upper-> concept, right upper-> after the implementation it is the release.
+
+Disadvantages-> Very rigid, and not flexible, if there is a change at the 50% of the application the documentation and everything has to be changed
+Advantages->Verification and validation are done in the same time, it is a strict procces to develop a product of a high quality
+
+Agile model
+A SDLC, where testing from the costumer part is made a.s.a.p, the key for this model is that everyone is with everyone, and the quality of the soft is followed everywhere. The main idea is that testing has to be there from the begining of the project. It follows a concept like divide-et-impera wich delivers to the costumers parts of the product when they're done, and tested.
+It has a concept of sprint programint, and after that sprint testing, it can be handled more easily because it is more flexibile, unlike the v model where if you are at 80% of the project done and a change appears, you have to change alot. It's based on continual improvement.
+
+Advantages->Reduces time, because it is done back to back with the dev.
+It is itterative, so the functions are deliverd incrementally
+Testing is integrated within the lifecycle, and it gives the team an early view if anything should get messy.
+Disadvantages->Less information, requierements evolve throughout the development-> wich defines flexibility

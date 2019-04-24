@@ -1,0 +1,10 @@
+Bug ID 1234
+Date 24/02/2019
+Found by Stan Livian
+Issued to (dev team)
+Priorty- High
+Severity- Critical
+Component- LogIn feature
+Status- Open(Under review)
+Environment -> Windows 10 updated april 2019 (64 bites)
+Description-> the app lets you log in regardless of the upper and lower case of the credentials.
